@@ -1,0 +1,3 @@
+#!/bin/bash
+now="$(date +'%d/%m/%Y-%H/%M')"
+printf "Current date and time is %s\n"  > /tmp/$now
